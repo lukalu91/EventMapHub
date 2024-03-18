@@ -13,11 +13,11 @@
         <maven-shade-plugin-v>3.5.1</maven-shade-plugin-v>
     </properties>
 	
-	<modules> 
-	
+	<modules>
 		<module>eventCreator</module>
-	
-	</modules>
+        <module>eventSearcher</module>
+        <module>eventsManager</module>
+    </modules>
 
     <dependencies>
         
@@ -25,7 +25,6 @@
 
     <build>
         <plugins>
-            
         </plugins>
     </build>
 </project>
