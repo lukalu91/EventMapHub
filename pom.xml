@@ -14,7 +14,8 @@
     </properties>
 	
 	<modules>
-		<module>eventCreator</module>
+        <module>eventCommon</module>
+        <module>eventCreator</module>
         <module>eventSearcher</module>
         <module>eventsManager</module>
     </modules>
