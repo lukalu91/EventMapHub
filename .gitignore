@@ -26,6 +26,7 @@ replay_pid*
 
 # folder
 classpath
+.idea
 .project
 .classpath
 .settings/
