@@ -14,7 +14,6 @@ public class Evento {
 
     private String nome;
     private String descrizione;
-    private Luogo luogo;
     private Date data;
     private EventType tipo;
 }
