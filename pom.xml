@@ -15,6 +15,7 @@
 	
 	<modules>
         <module>eventCommon</module>
+        <module>eventDB</module>
         <module>eventCreator</module>
         <module>eventSearcher</module>
         <module>eventsManager</module>
