@@ -9,4 +9,6 @@ import lombok.ToString;
 @ToString
 public class Tavolo {
     private int posti;
+    private int id;
+    private String descrizione;
 }

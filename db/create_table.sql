@@ -1,35 +1,30 @@
-CREATE TABLE cars (
-  id VARCHAR(255) primary key,
+CREATE TABLE users (
+  id BIGSERIAL PRIMARY KEY,
   nome VARCHAR(255),
   cognome VARCHAR(255)
 );
 
 CREATE TABLE ludopoint (
-       id VARCHAR(255) primary key,
-       userId VARCHAR(255),
-       nome VARCHAR(255)
+    id BIGSERIAL PRIMARY KEY,
+    userId BIGSERIAL,
+    nome VARCHAR(255)
 );
 
 CREATE TABLE eventi (
-    id VARCHAR(255) primary key,
-    ludoId VARCHAR(255),
+    id BIGSERIAL PRIMARY KEY,
+    ludoId BIGSERIAL,
     tipoId VARCHAR(255)
 );
 
-CREATE TABLE eventi (
-    id VARCHAR(255) primary key,
-    ludoId VARCHAR(255),
-    tipoId VARCHAR(255)
-);
 
 CREATE TABLE tipoevento (
-        id VARCHAR(255) primary key,
-        descrizione VARCHAR(255)
+    id VARCHAR(255) primary key,
+    descrizione VARCHAR(255)
 );
 
 CREATE TABLE tavoli (
-    id VARCHAR(255) primary key,
-    ludoId VARCHAR(255),
+    id BIGSERIAL PRIMARY KEY,
+    ludoId BIGSERIAL,
     posti integer,
     descrizione VARCHAR(255)
 );

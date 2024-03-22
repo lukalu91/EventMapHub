@@ -15,9 +15,9 @@ import static org.junit.Assert.assertNotNull;
 public class DBConnectorTest {
 
     @Test
-    public void testInsertTable() throws SQLException {
+    public void testDBConnector() throws Exception {
 
-        Connection conn =  DBConnector.getConnection();
+        Connection conn =  DBConnector.getInstance().getConnection();
         assertNotNull(conn);
 
         try (PreparedStatement pStatement = conn.prepareStatement("select count(1) as count from users;")) {

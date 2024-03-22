@@ -8,4 +8,5 @@ import lombok.ToString;
 @Setter
 @ToString
 class Regole {
+    private String manifesto;
 }

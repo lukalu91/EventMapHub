@@ -10,6 +10,7 @@ import java.util.List;
 @Setter
 @ToString
 public class LudoPoint {
+    private String nome;
     private Luogo luogo;
     private Orari orari;
     private Regole regole;
